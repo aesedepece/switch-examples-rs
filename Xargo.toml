@@ -1,0 +1,17 @@
+[target.aarch64-none-elf.dependencies.core]
+stage = 0
+
+[target.aarch64-none-elf.dependencies.alloc]
+stage = 1
+
+[target.aarch64-none-elf.dependencies.libc]
+default-features=false
+features = ["align", "rustc-dep-of-std"]
+stage = 2
+
+[target.aarch64-none-elf.dependencies.std]
+branch = "switch"
+default-features = false
+features = ["panic-unwind"]
+git = "https://github.com/ischeinkman/libnx-rs-std"
+stage = 3
