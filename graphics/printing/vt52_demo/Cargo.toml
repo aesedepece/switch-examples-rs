@@ -1,0 +1,8 @@
+[package]
+name = "switch_examples_vt52_demo"
+version = "0.1.0"
+authors = ["ASDPC <adan.sdpc@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+libnx-rs = { git = "https://github.com/ischeinkman/libnx-rs", branch = "master" }
