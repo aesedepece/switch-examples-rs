@@ -1,5 +1,6 @@
 [workspace]
 members = [
+    "audio/echo",
     "graphics/printing/hello_world",
     "graphics/printing/vt52_demo",
     "network/nxlink_stdio"
