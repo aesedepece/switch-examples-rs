@@ -1,0 +1,9 @@
+[package]
+name = "switch_examples_playtone"
+version = "0.1.0"
+authors = ["ASDPC <adan.sdpc@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+libc = "0.2.51"
+libnx-rs = { git = "https://github.com/ischeinkman/libnx-rs", branch = "master" }
